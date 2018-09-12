@@ -22,7 +22,7 @@ export class HomePage {
     this.admobFree.banner.config(bannerConfig);
     this.admobFree.banner.prepare()
     .then(() => {
-     this.admobFree.banner.show()
+     //this.admobFree.banner.show()
     })
     .catch(e => console.log(e));    
   }
